@@ -1,4 +1,4 @@
-package com.www.javapractice;
+package com.www;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

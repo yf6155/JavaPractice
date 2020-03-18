@@ -41,6 +41,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!--Java对象的布局以及Java对象头的布局-->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
     </dependencies>
 
     <build>
