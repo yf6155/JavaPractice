@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="indexDao" class="com.www.javapractice.springioc.dao.IndexDaoImpl"></bean>
+
+    <bean id="service" class="com.www.javapractice.springioc.service.ServiceImpl">
+
+        <property name="indexDao" ref="indexDao"></property>
+
+    </bean>
+
+</beans>
